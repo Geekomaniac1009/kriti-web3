@@ -1,0 +1,92 @@
+/* Navbar Container */
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2d3748;
+  padding: 15px 20px;
+  color: white;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Left Section - Logo */
+.navbar-left .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Right Section */
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Time Display */
+.time-display {
+  font-size: 0.9rem;
+  color: #cbd5e0;
+}
+
+/* User Icon */
+.user-icon-container {
+  position: relative;
+  cursor: pointer;
+}
+
+.user-icon {
+  color: white;
+  font-size: 1.8rem;
+  transition: color 0.3s ease;
+}
+
+.user-icon:hover {
+  color: #38b2ac;
+}
+
+/* Dropdown Menu */
+.dropdown-menu {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  width: 250px;
+  background-color: #1a202c;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+/* Dropdown Links */
+.dropdown-link {
+  display: block;
+  color: white;
+  padding: 12px 15px;
+  text-decoration: none;
+  font-size: 16px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  border-radius: 6px;
+}
+
+.dropdown-link:hover {
+  background-color: rgba(56, 178, 172, 0.2);
+  color: #38b2ac; /* Blue highlight */
+}
+
+/* Logout Link - Red Highlight */
+.logout-link {
+  color: #f56565;
+  font-weight: bold;
+}
+
+.logout-link:hover {
+  background-color: rgba(245, 101, 101, 0.2);
+  color: #f56565;
+}

@@ -1,0 +1,61 @@
+/* Transactions Container */
+.transactions-container {
+    width: 100%;
+    max-width: 600px;
+    background-color: #1a202c;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    border: 2px solid #3b82f6;
+    color: white;
+    margin-top: 20px;
+  }
+  
+  /* Heading */
+  .transactions-container h2 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #3b82f6;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  /* No transactions message */
+  .transactions-container p {
+    text-align: center;
+    color: #e5e7eb;
+  }
+  
+  /* Transaction card */
+  .transaction-card {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    background-color: #2d3748;
+    border-left: 5px solid;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+  }
+  
+  /* Buy Order - Green */
+  .transaction-card.buy {
+    border-left-color: #10b981;
+  }
+  
+  /* Sell Order - Red */
+  .transaction-card.sell {
+    border-left-color: #e53e3e;
+  }
+  
+  .transaction-card:hover {
+    transform: scale(1.02);
+  }
+  
+  /* Transaction details */
+  .transaction-card p {
+    font-size: 16px;
+    color: #e5e7eb;
+    text-align: center;
+  }
+  

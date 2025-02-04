@@ -1,0 +1,68 @@
+.account-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #121212;
+    padding: 20px;
+    border-radius: 12px;
+    color: white;
+  }
+  
+  .balances {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .balance-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 12px;
+  }
+  
+  .eth-balance {
+    background: linear-gradient(to right, #627eea, #314e9e);
+  }
+  
+  .carbon-balance {
+    background: linear-gradient(to right, #2ecc71, #1d8348);
+  }
+  
+  .icon {
+    font-size: 40px;
+    margin-right: 10px;
+  }
+  
+  .transactions {
+    background: #1e1e1e;
+    padding: 20px;
+    border-radius: 12px;
+    width: 300px;
+  }
+  
+  .transactions ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .transactions li {
+    padding: 10px;
+    border-radius: 6px;
+    margin-top: 5px;
+    text-align: center;
+  }
+  
+  .buy {
+    background-color: rgba(46, 204, 113, 0.2);
+    color: #2ecc71;
+  }
+  
+  .sell {
+    background-color: rgba(231, 76, 60, 0.2);
+    color: #e74c3c;
+  }
+  
